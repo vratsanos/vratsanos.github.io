@@ -3,7 +3,7 @@ title: About Alembic
 feature_text: |
   ## Maria Vratsanos
  Exploring structure-property relationships in soft matter
-feature_image: "/assets/cover_pic.jpg"
+feature_image: "assets/cover_pic.jpg"
 excerpt: "Personal website for Maria Vratsanos"
 ---
 
