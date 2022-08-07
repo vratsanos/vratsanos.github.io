@@ -1,0 +1,2 @@
+[Direct Observation of Emulsion Morphology, Dynamics, and Demulsification](https://pubs.acs.org/doi/abs/10.1021/acsnano.2c00199)
+Maria A. Vratsanos, Nathan C. Gianneschi _ACS Nano,_ 2022, 16, 5, 7783–7793
