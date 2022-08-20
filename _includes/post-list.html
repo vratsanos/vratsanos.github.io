@@ -5,7 +5,7 @@
         <li class="item  item--post">
           <article class="article  article--post">
 
-            <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+            <h5><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h5>
             {% include post-meta.html %}
             {{ page.excerpt | markdownify | truncatewords: 60 }}
 
@@ -21,8 +21,8 @@
       {% for page in site.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
-
-            <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+            <!-- <h5><a href="https://www.google.com">{{ page.title }}</a></h5> -->
+            <h5><a href="{{ page.link }}">{{ page.title }}</a></h5>
             {% include post-meta.html %}
             {{ page.excerpt | markdownify | truncatewords: 60 }}
 
