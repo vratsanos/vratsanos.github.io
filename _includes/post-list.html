@@ -21,7 +21,6 @@
       {% for page in site.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
-            <!-- <h5><a href="https://www.google.com">{{ page.title }}</a></h5> -->
             <h5><a href="{{ page.link }}">{{ page.title }}</a></h5>
             {% include post-meta.html %}
             {{ page.excerpt | markdownify | truncatewords: 60 }}
